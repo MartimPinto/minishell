@@ -70,16 +70,12 @@ int	unset_errors(char *str)
 int	check_var(t_prompt *prompt, char *str)
 {
 	int	i;
-	int	j;
 
 	i = 0;
-	j = 0;
 	while (prompt->env[i])
 	{
 		if (!ft_strncmp(prompt->env[i], str, ft_strlen(str)))
 			return (0);
-		else
-			j = 0;
 		i++;
 	}
 	return (1);

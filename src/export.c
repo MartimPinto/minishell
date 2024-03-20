@@ -16,10 +16,8 @@ char	**add_single(char **env, char *key)
 {
 	char	**new_env;
 	int		i;
-	int		j;
 
 	i = 0;
-	j = 0;
 	while (env[i])
 		i++;
 	new_env = malloc(sizeof(char *) * (i + 2));
@@ -40,10 +38,8 @@ char	**add_env(char **env, char *key, char *value)
 	char	**new_env;
 	char	*tmp;
 	int		i;
-	int		j;
 
 	i = 0;
-	j = 0;
 	while (env[i])
 		i++;
 	new_env = malloc(sizeof(char *) * (i + 2));
