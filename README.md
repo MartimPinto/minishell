@@ -15,6 +15,8 @@ The Minishell project is the first group project in the Common Core of school 42
 
 This was a group project done with [gabrrodr](https://github.com/gabrrodr).
 
+<img src="demo.gif" width="100%"/>
+
 ## Implementation
 
 Our implementation of the **minishell** program can be divided into the following steps:
