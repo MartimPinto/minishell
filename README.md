@@ -5,13 +5,17 @@
 <p align="center">
 	<a href="#about">About</a> •
 	<a href="#usage">Usage</a> •
+   	<a href="#implementation">Implementation</a> •
 	<a href="#norme">Norme</a>
 </p>
+
 
 ## About
 The Minishell project is the first group project in the Common Core of school 42 and consists of creating a miniature version of bash in C. It must replicate key features of bash such as executing commands, displaying error messages, pipes, redirections, signals, exit codes, and quote handling. Minishell is the most complex and extensive project I've undertaken so far and I recommend that anyone who has yet to start this project plan carefully, coordinate and divide the workload with your partner, and take a step-by-step approach and only move on to the next stage of the project once the current one has been completed.
 
 This was a group project done with [gabrrodr](https://github.com/gabrrodr).
+
+## Implementation
 
 Our implementation of the **minishell** program can be divided into the following steps:
 
