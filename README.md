@@ -32,6 +32,7 @@ The parser groups tokens into commands, manages redirections and determines if t
 
 **Builtins**<br>
 Built-in commands, such as `echo`, `cd`, `pwd`, `export`, `unset`, `env`, and `exit`, are commands that are directly handled by the shell itself without invoking external executables.
+
 **Executor**<br>
 The executor manages the execution of commands, handling multiple commands, pipes, and child processes. It ensures proper communication between commands through pipes.
 
